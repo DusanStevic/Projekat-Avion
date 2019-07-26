@@ -1,0 +1,1 @@
+INDEX VERSION 1.130+C:\Users\Dule\Desktop\Projekat-Avion\.metadata\.plugins\org.eclipse.jdt.core
