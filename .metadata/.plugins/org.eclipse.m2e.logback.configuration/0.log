@@ -32,3 +32,96 @@
 2019-07-26 20:46:49,007 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-07-26 20:46:49,013 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-07-26 20:46:49,014 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 22:29:04,140 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 22:29:04,299 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 22:29:04,324 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 22:29:04,338 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 22:29:04,339 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 22:30:23,722 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 22:30:23,723 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 22:30:23,727 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 22:30:23,735 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 22:30:23,736 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 22:58:53,827 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-26 22:58:53,953 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-07-26 23:00:16,689 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:00:16,866 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:00:16,979 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:00:17,016 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:00:17,016 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:03:34,249 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-07-26 23:05:37,538 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-26 23:05:37,538 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-07-26 23:06:03,087 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:06:03,092 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:06:03,097 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:06:03,135 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:06:03,137 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:06:59,983 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-07-26 23:07:09,644 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: projekti2019:Avion:0.0.1-SNAPSHOT @ C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\pom.xml.
+2019-07-26 23:07:22,373 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/main/java
+2019-07-26 23:07:22,373 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-07-26 23:07:22,373 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-07-26 23:07:22,376 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/test/java
+2019-07-26 23:07:23,103 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 23 sec
+2019-07-26 23:07:28,578 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:07:28,581 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:07:28,641 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:07:28,648 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:07:28,648 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:08:15,054 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-07-26 23:08:51,669 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-07-26 23:09:17,932 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-26 23:09:17,932 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-07-26 23:09:30,833 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:09:30,838 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:09:30,845 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:09:30,850 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:09:30,850 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:09:46,363 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-07-26 23:10:01,486 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-26 23:10:01,486 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2019-07-26 23:12:20,681 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:12:20,681 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:12:20,683 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:12:20,686 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:12:20,686 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:12:30,236 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:12:30,238 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:12:30,243 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:12:30,291 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:12:30,291 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:12:39,441 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-07-26 23:13:42,114 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-26 23:13:42,114 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2019-07-26 23:19:09,694 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-26 23:19:09,694 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-07-26 23:19:19,771 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:19:19,771 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:19:19,786 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:19:19,789 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:19:19,791 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:26:32,016 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-07-26 23:26:40,581 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-26 23:26:40,581 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2019-07-26 23:31:58,774 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:31:58,774 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:31:58,774 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:32:00,041 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:32:00,041 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:32:01,234 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:32:01,234 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:32:01,236 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:32:02,084 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:32:02,084 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-26 23:32:43,520 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:32:43,522 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-26 23:32:43,522 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-26 23:32:43,535 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-26 23:32:43,535 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-07-27 00:04:42,657 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion
+2019-07-27 00:04:42,682 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-07-27 00:04:54,544 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 00:04:54,547 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 00:04:54,584 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 00:04:54,614 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
