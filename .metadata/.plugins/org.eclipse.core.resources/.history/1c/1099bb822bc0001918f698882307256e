@@ -1,0 +1,6 @@
+INSERT INTO authorities (id, user_type)
+VALUES  (1, "ROLE_REGISTEREDUSER"),
+        (2, "ROLE_AIRLINEADMIN"),
+        (3, "ROLE_HOTELADMIN"),
+        (4, "ROLE_RENTACARADMIN"),
+        (5, "ROLE_SYSTEMADMIN");
