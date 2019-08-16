@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
-<link rel="stylesheet" href="/webjars/bootstrap/3.4.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css" />
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
@@ -24,6 +23,6 @@
   </div>
 </nav>
 	<script src="/webjars/jquery/3.4.1/jquery.min.js"></script>
-	<script src="/webjars/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+	<script src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

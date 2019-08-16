@@ -76,7 +76,8 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
-		<!-- bootstrap zahteva jquery dependency zato prvo mora jquery dependency pa tek onda bootstrap -->
+		<!-- bootstrap 3 i 4 se razlikuju standardni navbar je bootstrap3 tako
+		da mora bootstrap3 dependency  , a ne bootstrap4-->
 		<dependency>
 		    <groupId>org.webjars</groupId>
 		    <artifactId>jquery</artifactId>
@@ -85,8 +86,7 @@
 
 		
 		<!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
-		<!-- bootstrap 3 i 4 se razlikuju standardni navbar je bootstrap3 tako
-		da mora bootstrap3 dependency  , a ne bootstrap4-->
+		<!-- bootstrap zahteva jquery dependency zato prvo mora jquery dependency pa tek onda bootstrap -->
 		<dependency>
 		    <groupId>org.webjars</groupId>
 		    <artifactId>bootstrap</artifactId>
