@@ -92,6 +92,15 @@
 		    <artifactId>bootstrap</artifactId>
 		    <version>3.4.1</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
+		<!-- dependency za tokene -->
+		<dependency>
+		    <groupId>io.jsonwebtoken</groupId>
+		    <artifactId>jjwt</artifactId>
+		    <version>0.9.1</version>
+		</dependency>
+		
 
 		
 		
