@@ -1,0 +1,13 @@
+package projekti2019.Avion.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import projekti2019.Avion.model.User;
+
+
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    User findOneByUsername( String username );
+    
+}
+
