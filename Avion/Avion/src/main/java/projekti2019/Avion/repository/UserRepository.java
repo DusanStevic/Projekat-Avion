@@ -7,7 +7,7 @@ import projekti2019.Avion.model.User;
 
 
 public interface UserRepository extends JpaRepository<User, Long> {
-    User findOneByUsername( String username );
+    User findByUsername( String username );
     
 }
 

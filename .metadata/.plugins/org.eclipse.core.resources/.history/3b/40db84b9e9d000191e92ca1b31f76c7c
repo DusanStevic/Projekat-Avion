@@ -1,0 +1,13 @@
+package projekti2019.Avion.service;
+
+public class Snippet {
+	public UserDTO getUserByUsername(String user){
+	        User userR = userRepository.findByUsername(user);
+	
+	        if (userR == null)
+	            return null;
+	
+	        return new UserDTO(userR);
+	    }
+}
+
