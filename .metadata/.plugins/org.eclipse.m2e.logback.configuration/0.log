@@ -49,3 +49,78 @@
 2019-09-05 18:52:18,306 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
 2019-09-05 18:52:18,351 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-09-05 18:52:18,351 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:06:13,697 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:06:13,929 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:06:13,939 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:06:13,949 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:06:13,949 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:06:52,759 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:06:52,764 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:06:52,769 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:06:52,776 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:06:52,779 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:07:54,213 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:07:54,277 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:07:54,287 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:07:54,303 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:07:54,304 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:12:49,858 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:12:49,863 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:12:49,870 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:12:49,880 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:12:49,880 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:13:43,340 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:13:43,343 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:13:43,348 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:13:43,380 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:13:43,380 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:13:51,497 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:13:51,512 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:13:51,542 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:13:51,617 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:13:51,617 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:14:28,058 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:14:28,063 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:14:28,068 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:14:28,075 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:14:28,083 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-05 19:14:45,316 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:14:45,318 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-05 19:14:45,323 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-05 19:14:45,333 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-05 19:14:45,333 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-06 21:25:59,740 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:26:00,722 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-06 21:26:00,944 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-06 21:26:01,511 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:26:01,511 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-06 21:26:07,852 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:26:07,855 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-06 21:26:07,858 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-06 21:26:07,880 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:26:07,880 [Worker-593] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-06 21:28:16,062 [Worker-591] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:28:16,065 [Worker-591] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-06 21:28:16,069 [Worker-591] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-06 21:28:16,076 [Worker-591] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:28:16,077 [Worker-591] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-06 21:28:50,613 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:28:50,617 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-06 21:28:50,624 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-06 21:28:50,667 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:28:50,755 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-06 21:29:09,213 [Worker-599] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:29:09,216 [Worker-599] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-06 21:29:09,233 [Worker-599] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-06 21:29:09,323 [Worker-599] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:29:09,323 [Worker-599] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-06 21:30:36,440 [Worker-608] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:30:36,443 [Worker-608] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-06 21:30:36,447 [Worker-608] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-06 21:30:36,454 [Worker-608] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:30:36,454 [Worker-608] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-06 21:30:49,571 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:30:49,573 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-06 21:30:49,577 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-09-06 21:30:49,584 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-06 21:30:49,584 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
