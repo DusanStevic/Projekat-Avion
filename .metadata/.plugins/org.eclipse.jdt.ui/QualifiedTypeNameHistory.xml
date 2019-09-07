@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="projekti2019.Avion.common.TimeProvider"/>
+<fullyQualifiedTypeName name="projekti2019.Avion.security.TokenUtils"/>
+<fullyQualifiedTypeName name="projekti2019.Avion.repository.UserRepository"/>
 <fullyQualifiedTypeName name="projekti2019.Avion.model.User"/>
 </qualifiedTypeNameHistroy>
