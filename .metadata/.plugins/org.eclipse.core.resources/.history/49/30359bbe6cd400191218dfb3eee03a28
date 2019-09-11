@@ -1,13 +1,9 @@
 package projekti2019.Avion.config;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
-import org.springframework.mobile.device.DeviceHandlerMethodArgumentResolver;
-import org.springframework.mobile.device.DeviceResolverHandlerInterceptor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -19,9 +15,6 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
-import org.springframework.web.method.support.HandlerMethodArgumentResolver;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import projekti2019.Avion.security.TokenUtils;
 import projekti2019.Avion.security.auth.RestAuthenticationEntryPoint;
@@ -33,7 +26,7 @@ import projekti2019.Avion.service.impl.CustomUserDetailsService;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements WebMvcConfigurer{
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	// Implementacija PasswordEncoder-a koriscenjem BCrypt hashing funkcije.
 	// BCrypt po defalt-u radi 10 rundi hesiranja prosledjene vrednosti.
@@ -63,37 +56,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
 
 	@Autowired
 	TokenUtils tokenUtils;
-/////////////////////////////////////////////////////////////////
-/*
-* Milan: Zbog novije verzije Springa Device objekat koji imate 
-* recimo u AuthenticationController klasi u metodi createAuthenticationToken kao parametar
-* pravi "gresku" pa se moraju dodati naredna dva beana i odraditi override dve metode jer se
-* implementira WebMvcConfigurer
-* Vise informacija na: https://projects.spring.io/spring-mobile/
-*/
-@Bean
-public DeviceResolverHandlerInterceptor 
-deviceResolverHandlerInterceptor() {
-return new DeviceResolverHandlerInterceptor();
-}
-
-@Bean
-public DeviceHandlerMethodArgumentResolver 
-deviceHandlerMethodArgumentResolver() {
-return new DeviceHandlerMethodArgumentResolver();
-}
-
-@Override
-public void addInterceptors(InterceptorRegistry registry) {
-registry.addInterceptor(deviceResolverHandlerInterceptor());
-}
-
-@Override
-public void addArgumentResolvers(
-List<HandlerMethodArgumentResolver> argumentResolvers) {
-argumentResolvers.add(deviceHandlerMethodArgumentResolver());
-}
-/////////////////////////////////////////////////////////////
 
 	// Definisemo prava pristupa odredjenim URL-ovima
 	@Override
