@@ -1,0 +1,8 @@
+package projekti2019.Avion.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class AirlineAdmin extends User {
+
+}
