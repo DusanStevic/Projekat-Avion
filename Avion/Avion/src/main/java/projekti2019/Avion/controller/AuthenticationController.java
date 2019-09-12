@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mobile.device.Device;
@@ -17,12 +18,18 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import projekti2019.Avion.common.DeviceProvider;
+import projekti2019.Avion.model.AirlineAdmin;
+import projekti2019.Avion.model.HotelAdmin;
+import projekti2019.Avion.model.RegisteredUser;
+import projekti2019.Avion.model.RentacarAdmin;
+import projekti2019.Avion.model.Role;
 import projekti2019.Avion.model.User;
 import projekti2019.Avion.model.UserTokenState;
 import projekti2019.Avion.security.TokenUtils;
@@ -33,7 +40,6 @@ import projekti2019.Avion.service.impl.CustomUserDetailsService;
 
 //Kontroler zaduzen za autentifikaciju korisnika
 @RestController
-@RequestMapping(value = "/auth", produces = MediaType.APPLICATION_JSON_VALUE)
 public class AuthenticationController {
 
 	@Autowired
@@ -68,6 +74,60 @@ public class AuthenticationController {
 		// Vrati token kao odgovor na uspesno autentifikaciju
 		return ResponseEntity.ok(new UserTokenState(jwt, expiresIn));
 	}*/
+	@PostMapping(value = "auth/login")
+	public ResponseEntity<?> createAuthenticationToken(@RequestBody JwtAuthenticationRequest authenticationRequest,
+			HttpServletResponse response,Device device) throws AuthenticationException, IOException {
+		
+		System.out.println("ULETEO SAM U LOGOVANJE");
+		if (device.isNormal()) {
+			System.out.println("KACIS SE PREKO DESKTOPA");
+		} else if (device.isTablet()) {
+			System.out.println("KACIS SE PREKO TABELETA");
+		} else if (device.isMobile()) {
+			System.out.println("KACIS SE PREKO MOBILNOG");
+		}
+		
+		
+		
+		final Authentication authentication;
+		authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
+				authenticationRequest.getUsername(), authenticationRequest.getPassword()));
+		
+		
+		/*try {
+			authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
+					authenticationRequest.getUsername(), authenticationRequest.getPassword()));
+		} catch (BadCredentialsException e) {
+			return new ResponseEntity<>(new MessageDTO("Wrong username or password.", "Error"), HttpStatus.OK);
+		} catch (DisabledException e) {
+			return new ResponseEntity<>(new MessageDTO("Account is not verified. Check your email.", "Error"),
+					HttpStatus.OK);
+		}*/
+		User user = (User) authentication.getPrincipal();
+
+		// Ubaci username + password u kontext
+		SecurityContextHolder.getContext().setAuthentication(authentication);
+
+		// Kreiraj token
+		String jwt = tokenUtils.generateToken(user.getUsername(),device);
+		int expiresIn = tokenUtils.getExpiredIn(device);
+		Role userType = null;
+
+		if (user instanceof HotelAdmin) {
+			userType = Role.ROLE_HOTEL_ADMIN;
+		} else if (user instanceof RentacarAdmin) {
+			userType = Role.ROLE_RENT_A_CAR_ADMIN;
+		} else if (user instanceof AirlineAdmin) {
+			userType = Role.ROLE_AIRLINE_ADMIN;
+		} else if (user instanceof RegisteredUser) {
+			userType = Role.ROLE_REGISTERED_USER;
+		} else {
+			userType = Role.ROLE_SYSTEM_ADMIN;
+		}
+
+		// Vrati token kao odgovor na uspesno autentifikaciju
+		return new ResponseEntity<>(new UserTokenState(jwt, expiresIn, userType), HttpStatus.OK);
+	}
 
 	/*@RequestMapping(value = "/refresh", method = RequestMethod.POST)
 	public ResponseEntity<?> refreshAuthenticationToken(HttpServletRequest request) {
