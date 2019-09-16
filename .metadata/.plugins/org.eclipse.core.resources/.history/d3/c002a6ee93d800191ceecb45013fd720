@@ -19,23 +19,23 @@ $(document).on('submit', '#loginForm', function(e) {
 				success : function(response) {
 					//setJwtToken(response.accessToken);
 					//$(location).attr('href', response.redirectionURL);
-					setJwtToken(TOKEN_KEY, response.accessToken);
-					console.log(response.role)
-					if (response.role == "ROLE_HOTEL_ADMIN") {
-						window.location.href = "ROLE_HOTEL_ADMIN.html";
-					} else if (response.role == "ROLE_AIRLINE_ADMIN") {
-						window.location.href = "ROLE_AIRLINE_ADMIN.html";
-					} else if (response.role == "ROLE_RENT_A_CAR_ADMIN") {
-						window.location.href = "ROLE_RENT_A_CAR_ADMIN.html"
-					} else if (response.role == "ROLE_REGISTERED_USER") {
+					setJwtToken(TOKEN_KEY, data.accessToken);
+					console.log(data.userRoleName)
+					if (data.userRoleName == "ROLE_HOTEL_ADMIN") {
+						window.location.href = "hoteladmin.html";
+					} else if (data.userRoleName == "ROLE_AIRLINE_ADMIN") {
+						window.location.href = "airlineadmin.html";
+					} else if (data.userRoleName == "ROLE_RENTACAR_ADMIN") {
+						console.log('Role is rentacardmin');
+						window.location.href = "rentacaradmin.html"
+					} else if (data.userRoleName == "ROLE_REGISTERED_USER") {
 						window.location.href = "ROLE_REGISTERED_USER.html";
 					} else {
 						window.location.href = "ROLE_SYSTEM_ADMIN.html"
 					}
 				},
 				error: function (xhr, status) {
-					//showMessage('Login failed!', 'red');
-					alert("login faild");
+					showMessage('Login failed!', 'red');
 				}
 			});
 		}
