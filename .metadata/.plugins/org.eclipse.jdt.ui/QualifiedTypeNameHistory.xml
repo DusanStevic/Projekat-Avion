@@ -4,4 +4,12 @@
 <fullyQualifiedTypeName name="projekti2019.Avion.security.TokenUtils"/>
 <fullyQualifiedTypeName name="projekti2019.Avion.repository.UserRepository"/>
 <fullyQualifiedTypeName name="projekti2019.Avion.model.User"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="projekti2019.Avion.model.Role"/>
+<fullyQualifiedTypeName name="projekti2019.Avion.model.HotelAdmin"/>
+<fullyQualifiedTypeName name="projekti2019.Avion.model.AirlineAdmin"/>
+<fullyQualifiedTypeName name="projekti2019.Avion.model.RegisteredUser"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="projekti2019.Avion.model.RentacarAdmin"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
 </qualifiedTypeNameHistroy>

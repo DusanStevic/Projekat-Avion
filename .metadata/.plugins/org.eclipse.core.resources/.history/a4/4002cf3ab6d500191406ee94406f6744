@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+<body>
+	<h1>uleteo si u logovanje</h1>
+	<form id="loginForm">
+	<table>
+		<tr>
+			<td>Username</td>
+			<td><input type="text" id = "username" name="txt_usename"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="password" id = "password" name="txt_password"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" id = "submitLogin" name="btn_login" value="Login"></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
