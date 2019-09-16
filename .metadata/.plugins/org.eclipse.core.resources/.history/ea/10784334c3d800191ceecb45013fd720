@@ -29,7 +29,7 @@ public class TokenUtils {
 	@Value("3600000") // 1h
 	private int EXPIRES_IN;
 
-	@Value("3600000") // 1h
+	@Value("600")
 	private int MOBILE_EXPIRES_IN;
 
 	@Value("Authorization")
