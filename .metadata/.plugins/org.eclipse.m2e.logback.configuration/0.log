@@ -981,3 +981,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration AvionApplication re
 2019-09-16 22:47:32,869 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-09-16 22:47:32,875 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
 2019-09-16 22:47:32,884 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-16 22:47:32,885 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
