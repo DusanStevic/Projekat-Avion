@@ -11,7 +11,6 @@
 	<groupId>projekti2019</groupId>
 	<artifactId>Avion</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>Avion</name>
 	<description>Avion project for Spring Boot</description>
 
