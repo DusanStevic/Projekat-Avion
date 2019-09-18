@@ -1467,3 +1467,9 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2019-09-18 17:16:01,519 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-09-18 17:16:01,519 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-09-18 17:16:01,519 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-18 17:16:01,534 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 17:16:01,566 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-18 17:26:13,761 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 17:26:13,766 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 17:26:13,838 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-18 17:26:13,848 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
