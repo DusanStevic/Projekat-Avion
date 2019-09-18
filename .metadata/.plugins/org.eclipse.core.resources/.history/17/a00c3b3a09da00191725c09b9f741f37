@@ -17,100 +17,19 @@
 
 	
 	
-	<properties>
+
+  
+  
+  <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
+  
+  
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-cache</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-mail</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/org.springframework.mobile/spring-mobile-device -->
-		<!-- omogucava pristup applikaciji preko mobilnih uredjaja -->
-		<dependency>
-		    <groupId>org.springframework.mobile</groupId>
-		    <artifactId>spring-mobile-device</artifactId>
-		    <version>1.1.5.RELEASE</version>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
-		<!-- potrebna zavisnost za funkcije koje koriste trenutno vreme -->
-		<dependency>
-		    <groupId>joda-time</groupId>
-		    <artifactId>joda-time</artifactId>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
-		<!-- bootstrap zahteva jquery dependency zato prvo mora jquery dependency pa tek onda bootstrap -->
-		<dependency>
-		    <groupId>org.webjars</groupId>
-		    <artifactId>jquery</artifactId>
-		    <version>3.4.1</version>
-		</dependency>
-
-		
-		<!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
-		<!-- bootstrap 3 i 4 se razlikuju standardni navbar je bootstrap3 tako
-		da mora bootstrap3 dependency  , a ne bootstrap4-->
-		<dependency>
-		    <groupId>org.webjars</groupId>
-		    <artifactId>bootstrap</artifactId>
-		    <version>3.4.1</version>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
-		<!-- dependency za tokene -->
-		<dependency>
-		    <groupId>io.jsonwebtoken</groupId>
-		    <artifactId>jjwt</artifactId>
-		    <version>0.9.1</version>
-		</dependency>
-		<!-- POSTGRES -->
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-		</dependency>
-		<dependency>
+ <dependencies>
+ 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
@@ -237,12 +156,10 @@
 		    <version>7.7</version>
 		</dependency>
 		
-
 		
 		
 		
 	</dependencies>
-
 	<profiles>
         <profile>
             <id>sonar</id>
