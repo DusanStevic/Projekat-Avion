@@ -2266,3 +2266,4 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-09-19 22:59:37,160 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-09-19 22:59:37,160 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-09-19 22:59:37,160 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 22:59:37,160 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
