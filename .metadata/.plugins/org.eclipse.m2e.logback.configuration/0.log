@@ -2019,3 +2019,45 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-09-19 20:26:02,795 [Worker-223] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Avion
 2019-09-19 20:26:02,795 [Worker-223] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Avion
 2019-09-19 20:26:02,802 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:35:22,215 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:35:22,230 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 20:35:22,230 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 20:35:22,235 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:35:22,235 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 20:35:26,550 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:35:26,550 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 20:35:26,550 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 20:35:26,555 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:35:26,555 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 20:35:36,148 [Worker-229] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-19 20:35:42,425 [Worker-229] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: projekti2019:Avion:0.0.1-SNAPSHOT @ C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\pom.xml.
+2019-09-19 20:35:57,230 [Worker-229] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/main/java
+2019-09-19 20:35:57,230 [Worker-229] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 20:35:57,230 [Worker-229] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 20:35:57,232 [Worker-229] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/test/java
+2019-09-19 20:36:06,440 [Worker-229] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Avion
+2019-09-19 20:36:06,452 [Worker-229] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 30 sec
+2019-09-19 20:36:24,408 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:36:24,410 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 20:36:24,468 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-19 20:36:24,675 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:36:24,675 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 20:36:24,678 [Worker-226] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Avion
+2019-09-19 20:36:24,678 [Worker-226] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Avion
+2019-09-19 20:36:24,685 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:37:55,134 [Worker-228] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-19 20:37:57,964 [Worker-228] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: projekti2019:Avion:0.0.1-SNAPSHOT @ C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\pom.xml.
+2019-09-19 20:38:05,131 [Worker-228] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/main/java
+2019-09-19 20:38:05,131 [Worker-228] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 20:38:05,131 [Worker-228] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 20:38:05,133 [Worker-228] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/test/java
+2019-09-19 20:38:09,826 [Worker-228] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Avion
+2019-09-19 20:38:09,841 [Worker-228] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2019-09-19 20:38:13,372 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:38:13,372 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 20:38:13,415 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-19 20:38:13,477 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:38:13,480 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 20:38:13,480 [Worker-226] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Avion
+2019-09-19 20:38:13,480 [Worker-226] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Avion
+2019-09-19 20:38:13,487 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

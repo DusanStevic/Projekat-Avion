@@ -1,6 +1,8 @@
 sudo: required
+dist: trusty
 language: java
-jdk: oraclejdk11
+jdk: openjdk8
+install: true
 
 
 before_install:
@@ -12,7 +14,7 @@ addons:
     token: $SONAR_TOKEN
 
 script:
-  - ./mvnw clean install -DskipTests=false -B
+  - ./mvnw clean install 
   - ./mvnw sonar:sonar   -Dsonar.projectKey=DusanStevic_Projekat-Avion   -Dsonar.organization=dusanstevic   -Dsonar.host.url=https://sonarcloud.io   -Dsonar.login=$SONAR_TOKEN
 
 deploy:
