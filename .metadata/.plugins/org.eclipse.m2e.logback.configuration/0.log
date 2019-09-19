@@ -1812,3 +1812,55 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-09-19 09:54:48,837 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-09-19 09:54:48,840 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-09-19 09:54:48,841 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 09:54:48,841 [Worker-66] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Avion
+2019-09-19 09:54:48,841 [Worker-66] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Avion
+2019-09-19 09:54:48,847 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:55:15,024 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:55:15,039 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 09:55:15,070 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-19 09:55:15,133 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:55:15,133 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 11:19:34,159 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:19:34,268 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 11:19:34,268 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 11:19:34,284 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:19:34,299 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 11:25:06,253 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:25:06,284 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 11:25:06,362 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-19 11:25:06,518 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:25:06,518 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 11:28:10,853 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:28:10,859 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 11:28:10,860 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 11:28:10,865 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:28:10,866 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 11:58:03,011 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-19 11:58:07,555 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: projekti2019:Avion:0.0.1-SNAPSHOT @ C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\pom.xml.
+2019-09-19 11:58:11,498 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/main/java
+2019-09-19 11:58:11,498 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 11:58:11,498 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 11:58:11,498 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/test/java
+2019-09-19 11:58:14,031 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Avion
+2019-09-19 11:58:14,039 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2019-09-19 11:58:16,423 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:58:16,424 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 11:58:16,453 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-19 11:58:16,772 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 11:58:16,772 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 11:58:16,772 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Avion
+2019-09-19 11:58:16,772 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Avion
+2019-09-19 11:58:16,787 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 12:21:36,790 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-19 12:21:38,464 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: projekti2019:Avion:0.0.1-SNAPSHOT @ C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\pom.xml.
+2019-09-19 12:21:41,437 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/main/java
+2019-09-19 12:21:41,437 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 12:21:41,437 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-19 12:21:41,437 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/test/java
+2019-09-19 12:21:43,029 [Worker-38] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Avion
+2019-09-19 12:21:43,037 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2019-09-19 12:21:44,129 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 12:21:44,130 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 12:21:44,152 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-19 12:21:44,189 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 12:21:44,189 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
