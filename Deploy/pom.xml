@@ -114,6 +114,56 @@
 		</dependency>
 		
 		
+		
+		
+		
+		
+		
+		
+		
+	
+<!-- 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		
+		 -->
+	
+		
+		
+	
+	
+		
+		
+		
+	
+        
+        
+        
+	
+		
+
+		
+	
+	
+    
+
+    
+
+  
+
+	
+
+		
+		
 		<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
 		<dependency>
 		    <groupId>org.sonarsource.sonarqube</groupId>

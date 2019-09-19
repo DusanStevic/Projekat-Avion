@@ -1804,3 +1804,11 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-09-19 09:48:49,168 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-09-19 09:48:49,176 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-09-19 09:48:49,210 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-19 09:48:49,254 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:48:49,254 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-19 09:54:45,946 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: projekti2019:Avion:0.0.1-SNAPSHOT @ C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\pom.xml.
+2019-09-19 09:54:48,831 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:54:48,837 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 09:54:48,837 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 09:54:48,840 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:54:48,841 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
