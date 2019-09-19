@@ -113,7 +113,8 @@
 		<dependency>
 		    <groupId>org.postgresql</groupId>
 		    <artifactId>postgresql</artifactId>
-		    </dependency>
+		    <version>42.2.8</version>
+		</dependency>
 		
 		
 		

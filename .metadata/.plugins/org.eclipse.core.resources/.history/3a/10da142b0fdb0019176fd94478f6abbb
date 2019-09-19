@@ -107,14 +107,11 @@
 		    <artifactId>jjwt</artifactId>
 		    <version>0.9.1</version>
 		</dependency>
-		
-		
-		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<!-- POSTGRES -->
 		<dependency>
-		    <groupId>org.postgresql</groupId>
-		    <artifactId>postgresql</artifactId>
-		    </dependency>
-		
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
 		
 		
 		<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
