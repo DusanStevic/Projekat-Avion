@@ -1,5 +1,0 @@
-package projekti2019.Avion.model;
-
-public class RegisteredUser extends User {
-
-}
