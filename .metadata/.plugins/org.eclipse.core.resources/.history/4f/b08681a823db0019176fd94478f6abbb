@@ -107,12 +107,142 @@
 		    <artifactId>jjwt</artifactId>
 		    <version>0.9.1</version>
 		</dependency>
+		
+		
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    </dependency>
+		
+		
+		
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
+		<dependency>
+		    <groupId>org.sonarsource.sonarqube</groupId>
+		    <artifactId>sonar-plugin-api</artifactId>
+		    <version>7.7</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
 		<!-- POSTGRES -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.197</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>2.22.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.6.0</version>
+        </dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
 		
+
+		
+		
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.15</version>
+		</dependency>
+		
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency> -->
+		
+		
+
+        <!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency> -->
+
+    
+
+    
+
+        <dependency>
+          <groupId>org.webjars</groupId>
+          <artifactId>bootstrap</artifactId>
+          <version>3.3.7</version>
+        </dependency>
+
+		<dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+		
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency> -->
 		
 		<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
 		<dependency>
@@ -124,8 +254,7 @@
 	</dependencies>
 	
 	
-<!-- Kontrola kvaliteta koda u localu preko sonara -->
-	<profiles>
+<profiles>
         <profile>
             <id>sonar</id>
             <activation>
@@ -134,11 +263,11 @@
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url> http://localhost:9000 </sonar.host.url>
-				<!--Uncomment below few lines if you are using external databases(Oracle/DB2/Mysql) -->
-				<!--  <sonar.jdbc.url>your database url</sonar.jdbc.url>
-				<sonar.jdbc.driver>your DB driver</sonar.jdbc.driver>
-				<sonar.jdbc.username>DB username</sonar.jdbc.username>
-				<sonar.jdbc.password>DB password</sonar.jdbc.password>        -->              
+	<!--Uncomment below few lines if you are using external databases(Oracle/DB2/Mysql) -->
+ <!--  <sonar.jdbc.url>your database url</sonar.jdbc.url>
+<sonar.jdbc.driver>your DB driver</sonar.jdbc.driver>
+<sonar.jdbc.username>DB username</sonar.jdbc.username>
+<sonar.jdbc.password>DB password</sonar.jdbc.password>        -->              
 
             </properties>
         </profile>
@@ -153,9 +282,10 @@
     				<addResources>true</addResources>
 				</configuration>
 			</plugin>
-	
-			
-<!-- 			Code Coverage Pokrivenost koda testovima -->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
 			<plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
@@ -178,5 +308,6 @@
         </plugin>
 		</plugins>
 	</build>
+	
 
 </project>
