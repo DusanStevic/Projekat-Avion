@@ -2656,3 +2656,24 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2019-09-20 15:30:25,141 [Worker-647] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Avion
 2019-09-20 15:30:25,141 [Worker-647] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Avion
 2019-09-20 15:30:25,147 [Worker-647] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-20 15:40:04,862 [Worker-649] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-20 15:40:04,878 [Worker-649] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-20 15:40:04,878 [Worker-649] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-20 15:40:04,893 [Worker-649] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-20 15:40:04,893 [Worker-649] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-20 15:40:12,678 [Worker-651] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-20 15:40:14,126 [Worker-651] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: projekti2019:Avion:0.0.1-SNAPSHOT @ C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\pom.xml.
+2019-09-20 15:40:17,466 [Worker-651] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/main/java
+2019-09-20 15:40:17,467 [Worker-651] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-20 15:40:17,468 [Worker-651] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Avion/src/main/resources
+2019-09-20 15:40:17,469 [Worker-651] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Avion/src/test/java
+2019-09-20 15:40:22,964 [Worker-651] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Avion
+2019-09-20 15:40:22,975 [Worker-651] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2019-09-20 15:40:26,027 [Worker-648] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-20 15:40:26,030 [Worker-648] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-20 15:40:26,079 [Worker-648] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-09-20 15:40:26,162 [Worker-648] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-20 15:40:26,163 [Worker-648] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dule\Desktop\Projekat-Avion\Avion\Avion\src\test\resources
+2019-09-20 15:40:26,163 [Worker-648] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Avion
+2019-09-20 15:40:26,164 [Worker-648] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Avion
+2019-09-20 15:40:26,175 [Worker-648] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
